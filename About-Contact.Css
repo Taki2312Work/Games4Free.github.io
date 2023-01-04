@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal';
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+background-color: whitesmoke;
+}
+.logo {
+    width: 350px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-right: 280px;
+    margin-left: 150px;
+}
+
+.navbar {
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+    background-image:linear-gradient(to right, darkblue , purple);;
+}
+.SUPPORT_BTN{
+    
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-right: -35px;
+    background-color: lightblue;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    text-decoration: link;
+
+
+}
+.SUPPORT_BTN:hover {
+
+    border-color: wheat;
+    border-style: 5px;
+background-color: lightskyblue;
+}
+.searchbar[type=text] {
+    border: 13px;
+    border-color: whitesmoke;
+padding: 6px;
+margin-left: 50px;
+background-color: lightblue;
+color: lightblue;
+  }
+.Main_BTN{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 00px;
+    background-color: lightblue;
+    color: black;
+    border-style: solid;
+    border-color: white;
+  
+}
+.Main_BTN:hover {
+
+    border-color: wheat;
+    border-style: 5px;
+background-color: lightskyblue;
+}
+.Main_Text{
+    font-size: 35px;
+
+}
+.Email{
+    color: dodgerblue;
+    background-color: white;
+    text-decoration: none;
+}
+.a{
+    text-decoration: none;
+}

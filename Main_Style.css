@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal';
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(11, 11, 226), rgb(192, 9, 192));
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    width: 350px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-right: 280px;
+    margin-left: 150px;
+}
+
+.navbar {
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+    background-image: linear-gradient(to right, darkblue, purple);
+    ;
+}
+
+.SUPPORT_BTN {
+
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-right: -35px;
+    background-color: lightblue;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    text-decoration: link;
+
+
+}
+
+.SUPPORT_BTN:hover {
+
+    border-color: wheat;
+    border-style: 5px;
+    background-color: lightskyblue;
+}
+
+.searchbar[type=text] {
+    border: 13px;
+    border-color: whitesmoke;
+    padding: 6px;
+    margin-left: 50px;
+    background-color: lightblue;
+    color: black;
+}
+
+.About-Contact_BTN {
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 00px;
+    background-color: lightblue;
+    color: black;
+    border-style: solid;
+    border-color: white;
+
+}
+
+.About-Contact_BTN:hover {
+
+    border-color: wheat;
+    border-style: 5px;
+    background-color: lightskyblue;
+}
+
+.games {
+
+    margin-top: 50px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    float: center;
+
+    background-color: rgba(245, 245, 245, 0);
+}
+
+
+.Download_Pes2021_BTN {
+    opacity: 100%;
+    width: 150px;
+    height: 32px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, lightblue, lightsalmon);
+    color: black;
+    border: cornflowerblue;
+    border-style: inherit;
+    margin-left: 43%;
+}
+
+.Download_Pes2021_BTN:hover {
+
+    background-image: linear-gradient(to right, rgb(143, 207, 228), rgb(255, 141, 96));
+}
+
+.Download_Pes2021_BTN:active {
+
+    background-image: linear-gradient(to right, rgb(158, 229, 255), rgb(240, 153, 119));
+}
+
+.pes2021img {
+    width: 350px;
+    height: 200px;
+    margin-left: 35%;
+    opacity: 100%;
+}
+
+.pes2021img:hover {
+    filter: brightness(80%);
+
+}
+
+.pes2021img:active {
+    filter: brightness(130%);
+}
+
+.Pes2021_Description {
+    margin-left: 37%;
+    color: rgb(255, 255, 255);
+    font-family: 'Tajawal';
+    font-style: initial;
+    font-size: 18px;
+    opacity: 100%;
+}
+
+.Pes2021_Description:hover {
+
+    color: rgb(202, 202, 202);
+    font-family: 'Tajawal';
+    font-style: initial;
+    font-size: 18px;
+
+}
+
+
+.Download_Pes2022_BTN {
+    opacity: 100%;
+    width: 155px;
+    height: 40px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, lightblue, lightsalmon);
+    color: black;
+    border: cornflowerblue;
+    border-style: inherit;
+    margin-left: 167px;
+}
+
+.Download_Pes2022_BTN:hover {
+
+    background-image: linear-gradient(to right, rgb(143, 207, 228), rgb(255, 141, 96));
+}
+
+.Download_Pes2022_BTN:active {
+
+    background-image: linear-gradient(to right, rgb(158, 229, 255), rgb(240, 153, 119));
+}
+
+.pes2022img {
+    width: 350px;
+    height: 202px;
+    margin-left: 5%;
+    opacity: 100%;
+    margin-top: -255px;
+}
+
+.pes2022img:hover {
+    filter: brightness(80%);
+
+}
+
+.pes2022img:active {
+    filter: brightness(130%);
+}
+
+.Pes2022_Description {
+    margin-left: 85px;
+    color: rgb(255, 255, 255);
+    font-family: 'Tajawal';
+    font-style: initial;
+    font-size: 18px;
+    opacity: 100%;
+    margin-top: -53px;
+}
+
+.Pes2022_Description:hover {
+
+    color: rgb(204, 204, 204);
+    font-family: 'Tajawal';
+    font-style: initial;
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,7 @@
+Colours:
+lightskyblue
+lightblue
+lightseagreen
+lightsalmon
+cornflowerblue
+dodgerblue
