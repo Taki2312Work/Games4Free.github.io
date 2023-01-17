@@ -6,6 +6,22 @@
  
     </head>
     <body>
+         <script>
+        // Function called if AdBlock is not detected
+        function adBlockNotDetected() {
+        }
+        // Function called if AdBlock is detected
+        function adBlockDetected() {
+            alert("There is no ads in the website so it doesn't need any ad block :)");
+        }
+
+        if (typeof blockAdBlock === "undefined") {
+            adBlockDetected();
+        } else {
+            blockAdBlock.onDetected(adBlockDetected);
+            blockAdBlock.onNotDetected(adBlockNotDetected);
+        }
+    </script>
                <script>
         alert("WARNING: THIS WEBSITE IS MADE FOR DESKTOP SITES ONLY !");
       </script>
